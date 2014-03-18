@@ -1,0 +1,11 @@
+﻿@model Mouret.Models.ContactpageModel
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    
+    <div class="contact-content">
+        @Model.BodyText
+    </div>
+    <div class="google-maps">
+        @Html.Raw(Model.GoogleMaps)
+    </div>
+}

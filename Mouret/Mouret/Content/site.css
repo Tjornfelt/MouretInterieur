@@ -1,0 +1,145 @@
+﻿body {
+    background-color: #565565;
+    font-family: 'Esteban', serif;
+    overflow-y: scroll;
+
+}
+
+.site-wrapper {
+    width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    height: 215px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 465px;
+    position: absolute;
+    right: 0px; top: 25px;
+}
+    .logo a {
+        text-decoration: none;
+    }
+.logo-text {
+    position: relative;
+}
+.line1 {
+    color: #948a91;
+    font-size: 30px;
+    display: block;
+}
+.line2 {
+    color: white;
+    font-size: 114px;
+    display: block;
+    text-align: right;
+    position: absolute; top: 25px; right: 0px;
+}
+.line3 {
+    color: #948a91;
+    display: block;
+    text-align: right;
+    font-size: 72px;
+    position: absolute; top: 115px; right: 0px;
+}
+
+.left-menu {
+    width: 180px;
+    float: left;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: #f7a08b;
+}
+.left-menu a {
+    color: inherit;
+    text-decoration: none;
+}
+.left-menu a:hover {
+    text-decoration:underline;
+}
+
+.left-menu ul li {
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 65px;
+}
+
+.content {
+    width: 824px;
+    float: right;
+    color: #bc9b6a;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content h1 {
+    font-size: 26px;
+}
+.content a {color: inherit;}
+.contact-content {
+    width: 375px;
+    float: left;
+}
+.google-maps {
+    width: 425px;
+    float: right;
+}
+    .google-maps small a {
+    
+        font-family: Arial;
+        color: #f7a08b !important;
+    }
+
+nav.top-nav {
+    padding-top: 180px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: #f7a08b;
+}
+nav.top-nav a {
+    color: inherit;
+    text-decoration: none;
+}
+nav.top-nav a:hover {
+    text-decoration:underline;
+}
+
+nav.top-nav ul li {
+    float: left;
+    margin-right: 65px;
+}
+
+.frontpage-tile-image {
+    margin-right: 13px;
+}
+    .frontpage-tile-image.last {
+        margin-right: 0px;
+    }
+.frontpage-tile-image-wrapper {
+    margin-bottom: 75px;
+}
+
+/*Product list*/
+.product-image {
+    width: 200px;
+    height: 175px;
+    float: left;
+}
+    .product-image img {
+        display: block;
+    }
+.product-info {
+    width: 600px;
+    float: right;
+}
+.product {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.enlarge {
+    font-size: 14px;
+    text-align: center;
+}

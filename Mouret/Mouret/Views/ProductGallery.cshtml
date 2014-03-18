@@ -1,0 +1,45 @@
+﻿@model Mouret.Models.ProductGalleryModel
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    
+    
+    if(Model.Products != null)
+    {
+        <ul>
+            @foreach (var product in Model.Products)
+            {
+                <li class="product">
+                    <div class="product-image">
+                        @if(!string.IsNullOrWhiteSpace(product.ImageUrl))
+                        {
+                            var thumbUrl = string.Empty;
+                            if (!string.IsNullOrWhiteSpace(product.ImageCropUrl))
+                            {
+                                //see if we have a crop
+                                thumbUrl = product.ImageCropUrl;
+                            }
+                            else
+                            {
+                                //otherwise use imagegen
+                                thumbUrl = "/imagegen.ashx?image=" + product.ImageUrl + "&amp;width=200&amp;height=150&amp;constrain=true&amp;pad=true";
+                            }
+                            <a class="group1" href="@product.ImageUrl" title="@product.Description">
+                                <img width="200" height="150" src="@thumbUrl" />
+                            </a>
+                            <p class="enlarge">Klik for større version, samt flere billeder</p>
+                        }
+                        else
+                        {
+                           <img src="http://placehold.it/200x150" /> 
+                        }
+                    </div>
+                    <div class="product-info">@product.Description</div>
+                </li>
+            }
+        </ul>
+    }
+    
+    
+    
+    
+}

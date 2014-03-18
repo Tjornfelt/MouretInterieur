@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_a>
+    <image>
+      <originalFileName>antique-mahogany-victorian-5ft-3-door-armoire-wardrobe-closet-bap31.jpg</originalFileName>
+      <size>149281</size>
+      <dateLastModified>Fri, 07 Mar 2014 20:31:12 GMT</dateLastModified>
+      <width>792</width>
+      <height>792</height>
+      <cachedImage>
+        <fileName>ANT_e396ddf11a10ef9c2a22b59d5f38c6311eeb19e3eb97aef71fdf7884e0d09069.jpeg</fileName>
+        <dateCreated>Fri, 07 Mar 2014 20:43:01 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>90</compression>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>200</width>
+        <height>150</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>False</constrain>
+        <pad>False</pad>
+      </cachedImage>
+      <cachedImage>
+        <fileName>ANT_b328495dbfdbe80cfb34d45616fced32f3ac6583a4100edc990128013ffa274f.jpeg</fileName>
+        <dateCreated>Sat, 08 Mar 2014 09:42:49 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>90</compression>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>200</width>
+        <height>150</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>True</pad>
+      </cachedImage>
+    </image>
+  </_a>
+</imageIndex>

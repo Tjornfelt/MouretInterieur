@@ -1,0 +1,80 @@
+﻿@model Mouret.Models.BaseModel
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mouret Interieur</title>
+        <link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
+        <link href="/Content/reset.css" rel="stylesheet" />
+        <link href="/Content/site.css" rel="stylesheet" />
+        <link href="/scripts/Colorbox/colorbox.css" rel="stylesheet" />
+        <script src="/scripts/jquery-2.1.0.js"></script>
+        <script src="/scripts/Colorbox/jquery.colorbox.js"></script>
+        <script src="/scripts/main.js"></script>
+    </head>
+    <body>
+        <div class="site-wrapper">
+            <header>
+                <div class="logo">
+                    <div class="logo-text">
+                        <a href="/" title="Tilbage til forsiden"><span class="line1">Fransk industriel vintage</span></a>
+                        <a href="/" title="Tilbage til forsiden"><span class="line2">MOURET</span></a>
+                        <a href="/" title="Tilbage til forsiden"><span class="line3">interieur</span></a>
+                    </div>
+                </div>
+                <nav class="top-nav">
+                    <ul>
+                        @foreach (var item in Model.TopNavigation)
+                        {
+                            <li><a @Html.Raw(item.OpenInNewWindow? "target=\"_blank\"":string.Empty) href="@item.Url" title="@item.Name">@item.Name</a></li>
+                        }
+                    </ul>
+                </nav>
+            </header>
+            <div class="pre-content">
+                <div class="frontpage-tile-image-wrapper">
+                    @if(Model.LeftImage != null)
+                    {
+                        <img class="frontpage-tile-image" src="/imagegen.ashx?image=@Model.LeftImage.ImageUrl&amp;width=330&amp;height=205" alt="@Model.LeftImage.AltText"/>
+                    }
+                    else
+                    {
+                        <img class="frontpage-tile-image" src="http://placehold.it/330x204" alt="no image selected!"/>
+                    }
+
+                    @if(Model.MidImage != null)
+                    {
+                        <img class="frontpage-tile-image" src="/imagegen.ashx?image=@Model.MidImage.ImageUrl&amp;width=330&amp;height=205" alt="@Model.MidImage.AltText"/>
+                    }
+                    else
+                    {
+                        <img class="frontpage-tile-image" src="http://placehold.it/330x204" alt="no image selected!"/>
+                    }
+    
+                    @if(Model.RightImage != null)
+                    {
+                        <img class="frontpage-tile-image last" src="/imagegen.ashx?image=@Model.RightImage.ImageUrl&amp;width=330&amp;height=205" alt="@Model.RightImage.AltText"/>
+                    }
+                    else
+                    {
+                        <img class="frontpage-tile-image last" src="http://placehold.it/330x204" alt="no image selected!"/>
+                    }
+                </div>
+            </div>
+            <div class="left-menu">
+                <ul>
+                    @foreach (var item in Model.SideNavigation)
+                    {
+                        <li><a @Html.Raw(item.OpenInNewWindow? "target=\"_blank\"":string.Empty) href="@item.Url" title="@item.Name">@item.Name</a></li>
+                    }
+                </ul>
+            </div>
+            <div class="content">
+                @RenderBody()
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
