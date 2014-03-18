@@ -10,7 +10,7 @@ namespace Mouret.Mappers
 {
     public static class UmbracoImageMapper
     {
-        public static UmbracoImage Map(string imageId, UmbracoHelper helper)
+		public static UmbracoImage Map(string imageId, UmbracoHelper helper, string cropName = CropHelper.ProductThumbnail)
         {
             if (!string.IsNullOrWhiteSpace(imageId))
             {
@@ -20,7 +20,7 @@ namespace Mouret.Mappers
                     UmbracoImage umbImg = new UmbracoImage();
                     umbImg.ImageUrl = image.Url;
                     umbImg.AltText = image.Name;
-                    umbImg.ImageCropUrl = image.GetCropUrl(CropHelper.ProductThumbnail);
+					umbImg.Crop = image.GetCrop(cropName);
                     return umbImg;
                 }
             }

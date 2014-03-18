@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Xml;
 using System.Xml.Linq;
+using Mouret.Models.HelperModels;
 using Umbraco.Core.Models;
 using Umbraco.Web;
 
@@ -12,13 +13,16 @@ namespace Mouret.Classes.Helpers
     public static class CropHelper
     {
         public const string ProductThumbnail = "Produkt thumbnail";
+		public const string FrontpageBanner = "Forside banner";
 
-        public static string GetCropUrl(this IPublishedContent image, string cropName)
+        public static ImageCrop GetCrop(this IPublishedContent image, string cropName)
         {
             var imageCrop = image.GetPropertyValue<string>("crops");
 
             if (!string.IsNullOrWhiteSpace(imageCrop))
             {
+				ImageCrop imageCropObj = new ImageCrop();
+
                 XmlDocument xml = new XmlDocument();
                 xml.LoadXml(imageCrop);
 
@@ -26,9 +30,14 @@ namespace Mouret.Classes.Helpers
                 foreach (XmlNode xn in xnList)
                 {
                     string cropUrl = xn.Attributes["url"].Value;
+					int x = Convert.ToInt32(xn.Attributes["x"].Value);
+					int x2 = Convert.ToInt32(xn.Attributes["x2"].Value);
                     if (!string.IsNullOrWhiteSpace(cropUrl))
                     {
-                        return cropUrl;
+						imageCropObj.CropUrl = cropUrl;
+						imageCropObj.CropWidth = x2 - x;
+
+						return imageCropObj;
                     }
                 }
             }

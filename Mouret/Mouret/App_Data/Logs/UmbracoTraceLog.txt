@@ -21,3 +21,1021 @@
 2014-03-18 06:58:59,162 [6] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
 2014-03-18 06:58:59,723 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
 2014-03-18 06:58:59,729 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-03-18 16:09:13,122 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-03-18 16:09:13,130 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2014-03-18 16:09:13,136 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:09:13,270 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 132ms)
+2014-03-18 16:09:13,281 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:09:13,286 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:09:13,287 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:09:13,292 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 16:09:13,292 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:09:13,297 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2014-03-18 16:09:13,302 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:09:13,307 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2014-03-18 16:09:13,307 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:09:13,312 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2014-03-18 16:09:13,448 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-03-18 16:09:13,635 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-03-18 16:09:13,640 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:09:13,649 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2014-03-18 16:09:13,677 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:09:13,695 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 17ms)
+2014-03-18 16:09:13,807 [6] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2014-03-18 16:09:14,286 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 16:09:14,291 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-03-18 16:09:16,591 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 12] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:09:32,564 [6] INFO  umbraco.BasePages.BasePage - [Thread 11] User admin (Id: 0) logged in
+2014-03-18 16:09:32,673 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-03-18 16:09:32,679 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2014-03-18 16:09:32,746 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:09:32,764 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 17ms)
+2014-03-18 16:13:54,213 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 19] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:14:22,508 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 25] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:14:42,136 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 27] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:15:38,217 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 17] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:17:15,784 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 33] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:17:26,335 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 35] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:18:03,806 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 33] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:18:53,732 [6] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of umbraco.interfaces.IDataType
+2014-03-18 16:18:53,748 [6] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 16ms)
+2014-03-18 16:19:46,025 [6] INFO  Umbraco.Core.PluginManager - [Thread 46] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-18 16:19:46,034 [6] INFO  Umbraco.Core.PluginManager - [Thread 46] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 8ms)
+2014-03-18 16:21:10,882 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-03-18 16:21:10,902 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 20ms)
+2014-03-18 16:29:48,481 [6] INFO  umbraco.BusinessLogic.Log - [Thread 8] Log scrubbed.  Removed all items older than 2014-01-17 16:29:48
+2014-03-18 16:29:48,482 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 8] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 16:29:51,587 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-03-18 16:29:51,595 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2014-03-18 16:29:51,600 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:29:51,698 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 97ms)
+2014-03-18 16:29:51,709 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:29:51,714 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:29:51,716 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:29:51,721 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 16:29:51,721 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:29:51,726 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2014-03-18 16:29:51,729 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:29:51,734 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 16:29:51,734 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:29:51,740 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-03-18 16:29:51,849 [71] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-03-18 16:29:51,966 [71] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-03-18 16:29:51,971 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:29:51,980 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2014-03-18 16:29:51,999 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:29:52,016 [71] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 17ms)
+2014-03-18 16:29:52,081 [71] INFO  umbraco.content - [Thread 66] Loading content from disk cache...
+2014-03-18 16:29:52,392 [71] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 16:29:52,398 [71] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-03-18 16:29:54,574 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 66] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:30:14,109 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 69] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:30:27,069 [71] INFO  umbraco.BusinessLogic.Log - [Thread 69] Log scrubbed.  Removed all items older than 2014-01-17 16:30:27
+2014-03-18 16:30:27,070 [71] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 69] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 16:30:30,584 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-03-18 16:30:30,592 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2014-03-18 16:30:30,598 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:30:30,701 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 102ms)
+2014-03-18 16:30:30,712 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:30:30,717 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:30:30,719 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:30:30,724 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 16:30:30,724 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:30:30,730 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2014-03-18 16:30:30,733 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:30:30,739 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 16:30:30,739 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:30:30,745 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-03-18 16:30:30,862 [16] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-03-18 16:30:31,001 [16] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-03-18 16:30:31,007 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:30:31,016 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2014-03-18 16:30:31,038 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:30:31,056 [16] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 17ms)
+2014-03-18 16:30:31,125 [16] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2014-03-18 16:30:31,449 [16] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 16:30:31,455 [16] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2014-03-18 16:30:43,559 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 8] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:39:04,665 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 46] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:39:36,820 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 70] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:39:41,435 [16] INFO  Umbraco.Core.PluginManager - [Thread 46] Starting resolution types of umbraco.interfaces.IDataType
+2014-03-18 16:39:41,450 [16] INFO  Umbraco.Core.PluginManager - [Thread 46] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 14ms)
+2014-03-18 16:39:41,454 [16] INFO  Umbraco.Core.PluginManager - [Thread 46] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:39:41,471 [16] INFO  Umbraco.Core.PluginManager - [Thread 46] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 16ms)
+2014-03-18 16:39:48,391 [16] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-03-18 16:39:48,397 [16] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2014-03-18 16:40:03,068 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Forside' with Id '1047' has been published.
+2014-03-18 16:40:03,463 [16] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-03-18 16:40:03,487 [16] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 24ms)
+2014-03-18 16:41:05,388 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 66] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:41:05,403 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 50] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:41:05,413 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 65] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:42:13,399 [16] INFO  umbraco.BusinessLogic.Log - [Thread 31] Log scrubbed.  Removed all items older than 2014-01-17 16:42:13
+2014-03-18 16:42:13,401 [16] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 31] Application shutdown. Reason: ConfigurationChange
+2014-03-18 16:42:14,684 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Determining hash of code files on disk
+2014-03-18 16:42:14,692 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Hash determined (took 4ms)
+2014-03-18 16:42:14,698 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:42:14,804 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 104ms)
+2014-03-18 16:42:14,814 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:42:14,820 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:42:14,821 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:42:14,827 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2014-03-18 16:42:14,827 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:42:14,833 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2014-03-18 16:42:14,836 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:42:14,843 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2014-03-18 16:42:14,843 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:42:14,850 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2014-03-18 16:42:14,977 [71] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 7] Initializing Examine and binding to business logic events
+2014-03-18 16:42:15,098 [71] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 7] Adding examine event handlers for index providers: 3
+2014-03-18 16:42:15,104 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:42:15,114 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2014-03-18 16:42:15,136 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:42:15,156 [71] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 19ms)
+2014-03-18 16:42:15,606 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 52] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:42:15,613 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 27] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+2014-03-18 16:42:15,631 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 26] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:42:19,118 [71] INFO  umbraco.content - [Thread 28] Loading content from disk cache...
+2014-03-18 16:42:19,244 [71] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 16:42:19,251 [71] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2014-03-18 16:42:26,159 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 31] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+2014-03-18 16:42:26,183 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 51] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:42:26,195 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 26] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:43:10,270 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 31] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:43:10,274 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 26] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:43:22,496 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 28] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:43:22,500 [71] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 31] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\ImageGen.ashx(12): error CS0246: Typen eller navneområdenavnet 'ImageGen' blev ikke fundet (mangler der et 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   ved System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   ved System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   ved System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 16:44:51,194 [71] INFO  umbraco.BusinessLogic.Log - [Thread 58] Log scrubbed.  Removed all items older than 2014-01-17 16:44:51
+2014-03-18 16:44:51,195 [71] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 58] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 16:44:54,623 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-03-18 16:44:54,630 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2014-03-18 16:44:54,636 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:44:54,735 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 98ms)
+2014-03-18 16:44:54,745 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:44:54,751 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:44:54,752 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:44:54,757 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2014-03-18 16:44:54,758 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:44:54,764 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2014-03-18 16:44:54,767 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:44:54,772 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 16:44:54,772 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:44:54,779 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2014-03-18 16:44:54,888 [21] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-03-18 16:44:55,001 [21] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-03-18 16:44:55,004 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:44:55,013 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2014-03-18 16:44:55,033 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:44:55,051 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 17ms)
+2014-03-18 16:44:55,122 [21] INFO  umbraco.content - [Thread 58] Loading content from disk cache...
+2014-03-18 16:44:55,451 [21] INFO  Umbraco.Core.PluginManager - [Thread 58] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 16:44:55,457 [21] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-03-18 16:46:15,585 [21] INFO  umbraco.BusinessLogic.Log - [Thread 51] Log scrubbed.  Removed all items older than 2014-01-17 16:46:15
+2014-03-18 16:46:15,586 [21] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 51] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 16:46:18,905 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-03-18 16:46:18,912 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2014-03-18 16:46:18,919 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:46:19,017 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 96ms)
+2014-03-18 16:46:19,027 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:46:19,033 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:46:19,034 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:46:19,039 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 16:46:19,039 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:46:19,044 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2014-03-18 16:46:19,046 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:46:19,051 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 16:46:19,052 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:46:19,057 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-03-18 16:46:19,167 [62] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-03-18 16:46:19,283 [62] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-03-18 16:46:19,288 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:46:19,298 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2014-03-18 16:46:19,318 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:46:19,336 [62] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 18ms)
+2014-03-18 16:46:19,405 [62] INFO  umbraco.content - [Thread 64] Loading content from disk cache...
+2014-03-18 16:46:19,719 [62] INFO  Umbraco.Core.PluginManager - [Thread 64] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 16:46:19,725 [62] INFO  Umbraco.Core.PluginManager - [Thread 64] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2014-03-18 16:48:23,214 [62] INFO  umbraco.BusinessLogic.Log - [Thread 54] Log scrubbed.  Removed all items older than 2014-01-17 16:48:23
+2014-03-18 16:48:23,215 [62] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 54] Application shutdown. Reason: ConfigurationChange
+2014-03-18 16:48:24,032 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2014-03-18 16:48:24,038 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 3ms)
+2014-03-18 16:48:24,048 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:48:24,162 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 113ms)
+2014-03-18 16:48:24,177 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:48:24,182 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:48:24,183 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:48:24,188 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 16:48:24,188 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:48:24,193 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2014-03-18 16:48:24,194 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:48:24,200 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 16:48:24,200 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:48:24,205 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-03-18 16:48:24,292 [66] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2014-03-18 16:48:24,401 [66] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2014-03-18 16:48:24,407 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:48:24,416 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2014-03-18 16:48:24,437 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:48:24,455 [66] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 18ms)
+2014-03-18 16:53:53,764 [66] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2014-01-17 16:53:53
+2014-03-18 16:53:53,764 [66] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 50] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 16:54:05,332 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2014-03-18 16:54:05,339 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 4ms)
+2014-03-18 16:54:05,344 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 16:54:05,437 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 91ms)
+2014-03-18 16:54:05,449 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 16:54:05,454 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 16:54:05,455 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 16:54:05,460 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 16:54:05,460 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 16:54:05,464 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2014-03-18 16:54:05,465 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 16:54:05,471 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 16:54:05,471 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 16:54:05,476 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-03-18 16:54:05,566 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2014-03-18 16:54:05,673 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2014-03-18 16:54:05,677 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 16:54:05,686 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2014-03-18 16:54:05,706 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:54:05,723 [15] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 16ms)
+2014-03-18 16:55:02,905 [15] INFO  umbraco.content - [Thread 62] Loading content from disk cache...
+2014-03-18 16:55:03,202 [15] INFO  Umbraco.Core.PluginManager - [Thread 62] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 16:55:03,207 [15] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-03-18 16:55:19,941 [15] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.IDataType
+2014-03-18 16:55:19,955 [15] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 14ms)
+2014-03-18 16:55:19,959 [15] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 16:55:19,977 [15] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 17ms)
+2014-03-18 16:55:20,409 [15] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-03-18 16:55:20,419 [15] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2014-03-18 16:55:21,411 [15] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-03-18 16:55:21,418 [15] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2014-03-18 17:00:19,034 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Forside' with Id '1047' has been published.
+2014-03-18 17:08:09,679 [15] INFO  umbraco.BusinessLogic.Log - [Thread 23] Log scrubbed.  Removed all items older than 2014-01-17 17:08:09
+2014-03-18 17:08:09,680 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 23] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 17:08:13,093 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2014-03-18 17:08:13,100 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 4ms)
+2014-03-18 17:08:13,106 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 17:08:13,204 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 97ms)
+2014-03-18 17:08:13,215 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 17:08:13,220 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 17:08:13,222 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 17:08:13,227 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 17:08:13,227 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 17:08:13,232 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2014-03-18 17:08:13,234 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 17:08:13,239 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 17:08:13,240 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 17:08:13,245 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-03-18 17:08:13,353 [53] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2014-03-18 17:08:13,565 [53] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2014-03-18 17:08:13,572 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 17:08:13,582 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2014-03-18 17:08:13,606 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 17:08:13,625 [53] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 18ms)
+2014-03-18 17:08:13,695 [53] INFO  umbraco.content - [Thread 27] Loading content from disk cache...
+2014-03-18 17:08:14,007 [53] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 17:08:14,014 [53] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2014-03-18 17:08:30,906 [53] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 23] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\Views\Shared\_Layout.cshtml(38): error CS1061: 'Mouret.Models.BaseModel' indeholder ikke en definition til 'LeftImage', og der blev ikke fundet en udvidelsesmetode 'LeftImage', der accepterer et første argument af typen 'Mouret.Models.BaseModel' (mangler du en 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   ved System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   ved System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   ved System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   ved System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   ved System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   ved System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   ved System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   ved System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   ved System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   ved System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   ved System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   ved System.Web.WebPages.WebPageBase.PopContext()
+   ved System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   ved System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   ved System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   ved StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   ved System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   ved System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   ved System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   ved System.Web.WebPages.WebPageBase.PopContext()
+   ved System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   ved System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   ved System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   ved StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 17:08:30,907 [53] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 27] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\Views\Shared\_Layout.cshtml(38): error CS1061: 'Mouret.Models.BaseModel' indeholder ikke en definition til 'LeftImage', og der blev ikke fundet en udvidelsesmetode 'LeftImage', der accepterer et første argument af typen 'Mouret.Models.BaseModel' (mangler du en 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   ved System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   ved System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   ved System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   ved System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   ved System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   ved System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   ved System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   ved System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   ved System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   ved System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   ved System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   ved System.Web.WebPages.WebPageBase.PopContext()
+   ved System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   ved System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   ved System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   ved StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   ved System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   ved System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   ved System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   ved System.Web.WebPages.WebPageBase.PopContext()
+   ved System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   ved System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   ved System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   ved StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 17:16:40,462 [53] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.interfaces.IDataType
+2014-03-18 17:16:40,481 [53] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2014-03-18 17:16:40,484 [53] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 17:16:40,502 [53] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 17ms)
+2014-03-18 17:16:42,333 [53] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-18 17:16:42,341 [53] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 8ms)
+2014-03-18 17:16:57,514 [53] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-03-18 17:16:57,525 [53] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2014-03-18 17:16:57,954 [53] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-03-18 17:16:57,961 [53] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 7ms)
+2014-03-18 17:20:21,867 [53] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Forside' with Id '1047' has been published.
+2014-03-18 17:24:44,932 [53] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content 'Forside' with Id '1047' has been published.
+2014-03-18 17:25:32,212 [53] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 10] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\Views\ProductGallery.cshtml(16): error CS1061: 'Mouret.Models.HelperModels.Product' indeholder ikke en definition til 'ImageCropUrl', og der blev ikke fundet en udvidelsesmetode 'ImageCropUrl', der accepterer et første argument af typen 'Mouret.Models.HelperModels.Product' (mangler du en 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   ved System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   ved System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   ved System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   ved System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   ved System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   ved System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   ved System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass4.<FindView>b__3()
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   ved System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   ved System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   ved System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 17:25:47,287 [53] INFO  umbraco.content - [Thread 10] Loading content from database...
+2014-03-18 17:26:03,357 [53] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 10] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\Views\ProductGallery.cshtml(16): error CS1061: 'Mouret.Models.HelperModels.Product' indeholder ikke en definition til 'ImageCropUrl', og der blev ikke fundet en udvidelsesmetode 'ImageCropUrl', der accepterer et første argument af typen 'Mouret.Models.HelperModels.Product' (mangler du en 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   ved System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   ved System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   ved System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   ved System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   ved System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   ved System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   ved System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass4.<FindView>b__3()
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   ved System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   ved System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   ved System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 17:26:05,974 [53] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 10] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\Views\ProductGallery.cshtml(16): error CS1061: 'Mouret.Models.HelperModels.Product' indeholder ikke en definition til 'ImageCropUrl', og der blev ikke fundet en udvidelsesmetode 'ImageCropUrl', der accepterer et første argument af typen 'Mouret.Models.HelperModels.Product' (mangler du en 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   ved System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   ved System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   ved System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   ved System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   ved System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   ved System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   ved System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass4.<FindView>b__3()
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   ved System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   ved System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   ved System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 17:27:01,350 [53] INFO  umbraco.content - [Thread 10] Loading content from database...
+2014-03-18 17:27:05,078 [53] INFO  umbraco.content - [Thread 33] Loading content from database...
+2014-03-18 17:27:08,485 [53] INFO  umbraco.content - [Thread 42] Loading content from database...
+2014-03-18 17:28:49,851 [53] INFO  umbraco.content - [Thread 35] Loading content from database...
+2014-03-18 17:31:56,432 [53] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Arkivskab test produkt' with Id '1074' has been published.
+2014-03-18 17:32:04,029 [53] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Arkivskab test produkt' with Id '1074' has been published.
+2014-03-18 17:32:15,039 [53] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Ekstra test produkt' with Id '1078' has been published.
+2014-03-18 17:32:27,731 [53] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Arkivskab test produkt' with Id '1074' has been published.
+2014-03-18 18:42:09,863 [53] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 74] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Mads\Documents\GitHub\MouretInterieur\Mouret\Mouret\Views\ProductGallery.cshtml(16): error CS1061: 'Mouret.Models.HelperModels.Product' indeholder ikke en definition til 'ImageCropUrl', og der blev ikke fundet en udvidelsesmetode 'ImageCropUrl', der accepterer et første argument af typen 'Mouret.Models.HelperModels.Product' (mangler du en 'using'-direktiv eller en assemblyreference?)
+   ved System.Web.Compilation.AssemblyBuilder.Compile()
+   ved System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   ved System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   ved System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   ved System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   ved System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   ved System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FileExists(ControllerContext controllerContext, String virtualPath)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   ved System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   ved System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   ved System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   ved System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   ved System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   ved Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Microsoft.Web.Mvc.FixedRazorViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass4.<FindView>b__3()
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   ved StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   ved System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   ved System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   ved System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   ved System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   ved System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   ved System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   ved System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   ved System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   ved System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   ved System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   ved System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   ved System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ved System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-03-18 18:51:55,282 [53] INFO  umbraco.BusinessLogic.Log - [Thread 29] Log scrubbed.  Removed all items older than 2014-01-17 18:51:55
+2014-03-18 18:51:55,283 [53] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 29] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 18:51:59,272 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2014-03-18 18:51:59,280 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 4ms)
+2014-03-18 18:51:59,286 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 18:51:59,384 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 97ms)
+2014-03-18 18:51:59,395 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 18:51:59,400 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 18:51:59,402 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 18:51:59,407 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2014-03-18 18:51:59,407 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 18:51:59,412 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2014-03-18 18:51:59,415 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 18:51:59,421 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2014-03-18 18:51:59,422 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 18:51:59,427 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-03-18 18:51:59,547 [31] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2014-03-18 18:51:59,708 [31] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2014-03-18 18:51:59,715 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 18:51:59,726 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2014-03-18 18:51:59,754 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 18:51:59,773 [31] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 18ms)
+2014-03-18 18:51:59,888 [31] INFO  umbraco.content - [Thread 30] Loading content from disk cache...
+2014-03-18 18:52:00,199 [31] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 18:52:00,205 [31] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-03-18 18:52:32,604 [31] INFO  umbraco.BusinessLogic.Log - [Thread 59] Log scrubbed.  Removed all items older than 2014-01-17 18:52:32
+2014-03-18 18:52:32,605 [31] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 59] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-03-18 18:52:36,220 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2014-03-18 18:52:36,227 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 4ms)
+2014-03-18 18:52:36,234 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-18 18:52:36,334 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 99ms)
+2014-03-18 18:52:36,345 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-18 18:52:36,351 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2014-03-18 18:52:36,352 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-18 18:52:36,357 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2014-03-18 18:52:36,358 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-18 18:52:36,363 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2014-03-18 18:52:36,365 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-18 18:52:36,371 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-03-18 18:52:36,371 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-18 18:52:36,377 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2014-03-18 18:52:36,502 [41] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2014-03-18 18:52:36,621 [41] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2014-03-18 18:52:36,624 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-18 18:52:36,634 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2014-03-18 18:52:36,655 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 18:52:36,673 [41] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 17ms)
+2014-03-18 18:52:36,744 [41] INFO  umbraco.content - [Thread 23] Loading content from disk cache...
+2014-03-18 18:52:37,049 [41] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-03-18 18:52:37,055 [41] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2014-03-18 18:52:50,736 [41] INFO  Umbraco.Core.PluginManager - [Thread 81] Starting resolution types of umbraco.interfaces.IDataType
+2014-03-18 18:52:50,751 [41] INFO  Umbraco.Core.PluginManager - [Thread 81] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 15ms)
+2014-03-18 18:52:50,754 [41] INFO  Umbraco.Core.PluginManager - [Thread 81] Starting resolution types of umbraco.interfaces.ITree
+2014-03-18 18:52:50,770 [41] INFO  Umbraco.Core.PluginManager - [Thread 81] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 15ms)
+2014-03-18 18:52:55,112 [41] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-03-18 18:52:55,122 [41] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 8ms)
+2014-03-18 18:52:55,599 [41] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-03-18 18:52:55,605 [41] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2014-03-18 18:59:45,744 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Arkivskab test produkt' with Id '1074' has been published.
+2014-03-18 19:00:01,675 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Arkivskab test produkt' with Id '1074' has been published.

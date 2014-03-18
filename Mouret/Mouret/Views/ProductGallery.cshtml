@@ -1,36 +1,69 @@
-﻿@model Mouret.Models.ProductGalleryModel
+﻿@model ProductGalleryModel
 @{
     Layout = "/Views/Shared/_Layout.cshtml";
     
     
     if(Model.Products != null)
     {
+
+        int counter = 0;
         <ul>
             @foreach (var product in Model.Products)
             {
+                counter++;
+                var lightboxClass = "group" + counter;
                 <li class="product">
                     <div class="product-image">
-                        @if(!string.IsNullOrWhiteSpace(product.ImageUrl))
-                        {
-                            var thumbUrl = string.Empty;
-                            if (!string.IsNullOrWhiteSpace(product.ImageCropUrl))
+
+                        @{
+                            if(product.Images.Any())
                             {
-                                //see if we have a crop
-                                thumbUrl = product.ImageCropUrl;
+                                var firstImage = product.Images.FirstOrDefault();
+                                if(firstImage.Crop != null)
+                                {
+                                    <a class="@lightboxClass" rel="@lightboxClass" href="@firstImage.ImageUrl" title="@product.Description">
+                                        <img width="200" height="150" src="@firstImage.Crop.CropUrl" />
+                                    </a>
+                                    
+                                    if(product.Images.Count() > 1)
+                                    {
+                                        <p class="enlarge">Klik for større version, samt flere billeder</p>
+                                    }
+                                    else
+                                    {
+                                        <p class="enlarge">Klik for større version</p>
+                                    }
+                                }
+                                
+                                foreach (var image in product.Images.Skip(1))
+                                {
+                                    <a style="display: none;" class="@lightboxClass" rel="@lightboxClass" href="@image.ImageUrl" title="@product.Description"></a>
+                                }
+                            }
+                        
+                            @*
+                            if(!string.IsNullOrWhiteSpace(product.ImageUrl))
+                            {
+                                var thumbUrl = string.Empty;
+                                if (!string.IsNullOrWhiteSpace(product.ImageCropUrl))
+                                {
+                                    //see if we have a crop
+                                    thumbUrl = product.ImageCropUrl;
+                                }
+                                else
+                                {
+                                    //otherwise use imagegen
+                                    thumbUrl = "/imagegen.ashx?image=" + product.ImageUrl + "&amp;width=200&amp;height=150&amp;constrain=true&amp;pad=true";
+                                }
+                                <a class="group1" href="@product.ImageUrl" title="@product.Description">
+                                    <img width="200" height="150" src="@thumbUrl" />
+                                </a>
+                                <p class="enlarge">Klik for større version, samt flere billeder</p>
                             }
                             else
                             {
-                                //otherwise use imagegen
-                                thumbUrl = "/imagegen.ashx?image=" + product.ImageUrl + "&amp;width=200&amp;height=150&amp;constrain=true&amp;pad=true";
-                            }
-                            <a class="group1" href="@product.ImageUrl" title="@product.Description">
-                                <img width="200" height="150" src="@thumbUrl" />
-                            </a>
-                            <p class="enlarge">Klik for større version, samt flere billeder</p>
-                        }
-                        else
-                        {
-                           <img src="http://placehold.it/200x150" /> 
+                               <img src="http://placehold.it/200x150" /> 
+                            }*@
                         }
                     </div>
                     <div class="product-info">@product.Description</div>

@@ -20,12 +20,19 @@ namespace Mouret.Mappers
             foreach (var item in products)
             {
                 Product p = new Product();
-                var image = UmbracoImageMapper.Map(item.GetPropertyValue<string>("image"), helper);
-                if (image != null)
-                {
-                    p.ImageUrl = image.ImageUrl;
-                    p.ImageCropUrl = image.ImageCropUrl;
-                }
+
+				var imagesIdCsv = item.GetPropertyValue<string>("images");
+				var imageIds = imagesIdCsv.Split(',');
+
+				List<UmbracoImage> imgList = new List<UmbracoImage>();
+				foreach (var imageId in imageIds)
+				{
+					UmbracoImage img = new UmbracoImage();
+
+					img = UmbracoImageMapper.Map(imageId, helper);
+					imgList.Add(img);
+				}
+				p.Images = imgList;
                 p.Description = item.GetPropertyValue<IHtmlString>("description");
                 productList.Add(p);
             }

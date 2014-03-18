@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Umbraco.Web;
+using Mouret.Classes.Helpers;
 
 namespace Mouret.Controllers
 {
@@ -17,9 +18,18 @@ namespace Mouret.Controllers
         public ActionResult Index(BaseModel model)
         {
             var frontpage = CurrentPage.AncestorOrSelf(1);
-            model.LeftImage = UmbracoImageMapper.Map(frontpage.GetPropertyValue<string>("leftImage"), Umbraco);
-            model.MidImage = UmbracoImageMapper.Map(frontpage.GetPropertyValue<string>("midImage"), Umbraco);
-            model.RightImage = UmbracoImageMapper.Map(frontpage.GetPropertyValue<string>("rightImage"), Umbraco);
+			var imagesIdCsv = frontpage.GetPropertyValue<string>("bannerImages");
+			var imageIds = imagesIdCsv.Split(',');
+
+			List<UmbracoImage> imgList = new List<UmbracoImage>();
+			foreach (var imageId in imageIds)
+			{
+				UmbracoImage img = new UmbracoImage();
+
+				img = UmbracoImageMapper.Map(imageId, Umbraco, CropHelper.FrontpageBanner);
+				imgList.Add(img);
+			}
+			model.BannerImages = imgList;
             model.TopNavigation = NavigationMapper.Map(CurrentPage, true);
             model.SideNavigation = NavigationMapper.Map(CurrentPage);
 

@@ -8,7 +8,7 @@ namespace Mouret.Models.HelperModels
     public class Product
     {
         public string ImageUrl { get; set; }
-        public string ImageCropUrl { get; set; }
+		public IEnumerable<UmbracoImage> Images { get; set; }
         public IHtmlString Description { get; set; }
     }
 }

@@ -228,6 +228,7 @@
     <Compile Include="Mappers\UmbracoImageMapper.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\ContactpageModel.cs" />
+    <Compile Include="Models\HelperModels\ImageCrop.cs" />
     <Compile Include="Models\HelperModels\Product.cs" />
     <Compile Include="Models\ProductGalleryModel.cs" />
     <Compile Include="Models\HelperModels\MenuItem.cs" />
