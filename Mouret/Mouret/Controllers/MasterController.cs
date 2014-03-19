@@ -33,6 +33,27 @@ namespace Mouret.Controllers
             model.TopNavigation = NavigationMapper.Map(CurrentPage, true);
             model.SideNavigation = NavigationMapper.Map(CurrentPage);
 
+            model.MetaTitle = CurrentPage.GetPropertyValue<string>("MetaTitle");
+            if (string.IsNullOrWhiteSpace(model.MetaTitle))
+            {
+                model.MetaTitle = frontpage.GetPropertyValue<string>("MetaTitle");
+            }
+
+            model.MetaDescription = CurrentPage.GetPropertyValue<string>("MetaDescription");
+            if (string.IsNullOrWhiteSpace(model.MetaDescription))
+            {
+                model.MetaDescription = frontpage.GetPropertyValue<string>("MetaDescription");
+            }
+
+            model.MetaKeywords = CurrentPage.GetPropertyValue<string>("MetaKeywords");
+            if (string.IsNullOrWhiteSpace(model.MetaKeywords))
+            {
+                model.MetaKeywords = frontpage.GetPropertyValue<string>("MetaKeywords");
+            }
+
+
+
+
             return View(model);
         }
     }

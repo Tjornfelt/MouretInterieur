@@ -20,6 +20,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -230,6 +232,7 @@
     <Compile Include="Models\ContactpageModel.cs" />
     <Compile Include="Models\HelperModels\ImageCrop.cs" />
     <Compile Include="Models\HelperModels\Product.cs" />
+    <Compile Include="Models\HelperModels\Splatter.cs" />
     <Compile Include="Models\ProductGalleryModel.cs" />
     <Compile Include="Models\HelperModels\MenuItem.cs" />
     <Compile Include="Models\TextpageModel.cs" />
@@ -284,6 +287,10 @@
     <Content Include="scripts\Colorbox\images\overlay.png" />
     <Content Include="scripts\Colorbox\jquery.colorbox.js" />
     <Content Include="scripts\dummy.txt" />
+    <Content Include="config\ImageGen.config" />
+    <Content Include="ImageGen.ashx" />
+    <Content Include="App_Data\packages\created\createdPackages.config" />
+    <Content Include="App_Data\packages\installed\installedPackages.config" />
     <None Include="scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="scripts\jquery-2.1.0.js" />
     <Content Include="scripts\jquery-2.1.0.min.js" />
@@ -3090,7 +3097,6 @@
     <Content Include="scripts\jquery-2.1.0.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\MacroPartials\" />
     <Folder Include="Views\Partials\" />
   </ItemGroup>
@@ -3239,6 +3245,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

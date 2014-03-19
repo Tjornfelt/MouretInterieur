@@ -15,8 +15,11 @@ namespace Mouret.Models
 		 * */
 
 		public IEnumerable<UmbracoImage> BannerImages { get; set; }
-
         public IEnumerable<MenuItem> TopNavigation { get; set; }
         public IEnumerable<MenuItem> SideNavigation { get; set; }
+
+        public string MetaTitle { get; set; }
+        public string MetaDescription { get; set; }
+        public string MetaKeywords { get; set; }
     }
 }

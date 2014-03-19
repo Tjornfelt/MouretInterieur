@@ -2,5 +2,29 @@
 @{
     Layout = "/Views/Shared/_Layout.cshtml";
     
-    @Model.BodyText
+    if(Model.Splatter != null)
+    {
+        if(!string.IsNullOrWhiteSpace(Model.Splatter.Text) && Model.Splatter.Diameter != default(int))
+        {
+            string size = Model.Splatter.Diameter.ToString() + "px";
+            string top = Model.Splatter.VerticalPosition.ToString() + "px";
+            string left = Model.Splatter.HorizontalPosition.ToString() + "px";
+            
+            <div style="height: @size; width: @size; top: @top; left: @left; border-radius: @size;" class="splatter">
+                <span class="splatter-text">
+                    @Html.Raw(Model.Splatter.Text)
+                </span>
+            </div>
+        }
+    }
+    
+    <div class="left">
+        @Model.BodyText
+    </div>
+    <div class="right">
+        @if(Model.Image != null)
+        {
+        <img src="/imagegen.ashx?image=@Model.Image.ImageUrl&amp;width=355&amp;constrain=true" alt="@Model.Image.AltText" />
+        }
+    </div>
 }
