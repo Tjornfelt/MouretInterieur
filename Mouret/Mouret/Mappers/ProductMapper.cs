@@ -17,28 +17,35 @@ namespace Mouret.Mappers
             List<Product> productList = new List<Product>();
             var products = currentPage.Children.Where(x => x.IsDocumentType("Product"));
 
-            foreach (var item in products)
+            if (products != null)
             {
-                Product p = new Product();
+                foreach (var item in products)
+                {
+                    Product p = new Product();
 
-				var imagesIdCsv = item.GetPropertyValue<string>("images");
-				var imageIds = imagesIdCsv.Split(',');
+                    var imagesIdCsv = item.GetPropertyValue<string>("images");
+                    
 
-				List<UmbracoImage> imgList = new List<UmbracoImage>();
-				foreach (var imageId in imageIds)
-				{
-					UmbracoImage img = new UmbracoImage();
+                    if (!string.IsNullOrWhiteSpace(imagesIdCsv))
+                    {
+                        var imageIds = imagesIdCsv.Split(',');
+                        List<UmbracoImage> imgList = new List<UmbracoImage>();
+                        foreach (var imageId in imageIds)
+                        {
+                            UmbracoImage img = new UmbracoImage();
 
-					img = UmbracoImageMapper.Map(imageId, helper);
-					imgList.Add(img);
-				}
-				p.Images = imgList;
-                p.Description = item.GetPropertyValue<IHtmlString>("description");
-                productList.Add(p);
-            }
-            if (productList.Any())
-            {
-                return productList;
+                            img = UmbracoImageMapper.Map(imageId, helper);
+                            imgList.Add(img);
+                        }
+                        p.Images = imgList;
+                    }
+                    p.Description = item.GetPropertyValue<IHtmlString>("description");
+                    productList.Add(p);
+                }
+                if (productList.Any())
+                {
+                    return productList;
+                }
             }
             return null;
         }

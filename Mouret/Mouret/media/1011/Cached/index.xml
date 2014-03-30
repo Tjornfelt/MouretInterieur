@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_6>
+    <image>
+      <originalFileName>6.jpg</originalFileName>
+      <size>27113</size>
+      <dateLastModified>Wed, 19 Mar 2014 20:24:34 GMT</dateLastModified>
+      <width>158</width>
+      <height>244</height>
+      <cachedImage>
+        <fileName>6_b1c5b601666543de9f96b285fdc8098dd5d8347d371b6d0cd18985070789caa9.jpeg</fileName>
+        <dateCreated>Fri, 21 Mar 2014 19:49:40 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>90</compression>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>159</width>
+        <height>245</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_6>
+</imageIndex>

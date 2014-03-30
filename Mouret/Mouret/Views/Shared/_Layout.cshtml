@@ -6,6 +6,7 @@
         <title>@Model.MetaTitle</title>
         <meta name="description" content="@Model.MetaDescription ">
         <meta name="keywords" content="@Model.MetaKeywords">
+        <link rel="icon" type="image/png" href="/favicon.ico">
         <link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
         <link href="/Content/reset.css" rel="stylesheet" />
         <link href="/Content/site.css" rel="stylesheet" />
@@ -38,9 +39,9 @@
             <div class="pre-content">
                 <div class="frontpage-tile-image-wrapper">
 
-                    @foreach (var image in Model.BannerImages.Where(x => x.Crop != null))
+                    @foreach (var image in Model.BannerImages)
                     {
-                        <img class="frontpage-tile-image" height="245" width="@image.Crop.CropWidth" src="@image.Crop.CropUrl " alt="@image.AltText"/>
+                        <img class="frontpage-tile-image" src="/imagegen.ashx?image=@image.ImageUrl&amp;height=245&amp;constrain=true" alt="@image.AltText"/>
                     }
                 </div>
             </div>

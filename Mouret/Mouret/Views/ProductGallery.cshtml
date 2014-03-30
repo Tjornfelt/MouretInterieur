@@ -16,7 +16,7 @@
                     <div class="product-image">
 
                         @{
-                            if(product.Images.Any())
+                            if(product.Images != null)
                             {
                                 var firstImage = product.Images.FirstOrDefault();
                                 if(firstImage.Crop != null)
@@ -33,6 +33,10 @@
                                     {
                                         <p class="enlarge">Klik for større version</p>
                                     }
+                                }
+                                else
+                                {
+                                    <p>Udsnit (crop) ikke defineret. Vælg et udsnit på billedet, og gem det igen.</p>
                                 }
                                 
                                 foreach (var image in product.Images.Skip(1))

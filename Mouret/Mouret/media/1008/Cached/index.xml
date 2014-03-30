@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_3>
+    <image>
+      <originalFileName>3.jpg</originalFileName>
+      <size>36774</size>
+      <dateLastModified>Wed, 19 Mar 2014 20:24:34 GMT</dateLastModified>
+      <width>184</width>
+      <height>244</height>
+      <cachedImage>
+        <fileName>3_16a29c380b26999b787b05c8019ad8e424c05f5c4a7234e76ef4318b54b8ce1f.jpeg</fileName>
+        <dateCreated>Fri, 21 Mar 2014 19:49:40 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>90</compression>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>185</width>
+        <height>245</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_3>
+</imageIndex>
